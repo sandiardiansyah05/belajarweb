@@ -8,10 +8,23 @@
   <body>
     <h1>Contoh Input Atribut, Checbox & Radio</h1>
     <form>
-      <label for="nama"
-        >Nama:
-        <input type="text" id="name" name="name" />
+      <input
+        type="text"
+        name="Nama"
+        placeholder="Masukkan Nama lengkapmu"
+        autocomplete="off"
+      />
+      <br />
+      <label for="cita-cita1">
+        <input type="checkbox" name="cita-cita1" value="Pilot" /> Pilot
       </label>
+      <br />
+      <label for="cita-cita2">
+        <input type="checkbox" name="cita-cita2" value="Programmer" />
+        Programmer
+      </label>
+      <br />
+      <button type="submit">Kirim</button>
     </form>
   </body>
 </html>
