@@ -13,15 +13,39 @@
         name="Nama"
         placeholder="Masukkan Nama lengkapmu"
         autocomplete="off"
+        required
+        autofocus
       />
       <br />
+      <h3>Cita-cita</h3>
       <label for="cita-cita1">
         <input type="checkbox" name="cita-cita1" value="Pilot" /> Pilot
       </label>
       <br />
       <label for="cita-cita2">
-        <input type="checkbox" name="cita-cita2" value="Programmer" />
+        <input type="checkbox" name="cita-cita2" value="Programmer" checked />
         Programmer
+      </label>
+      <br />
+
+      <h3>Jenis kelamin</h3>
+      <label for="pria">
+        <input
+          type="radio"
+          name="jenis_kelamin"
+          id="pria"
+          value="Pria"
+          checked
+        />Pria
+      </label>
+      <br />
+      <label for="wanita">
+        <input
+          type="radio"
+          name="jenis_kelamin"
+          id="wanita"
+          value="Wanita"
+        />Wanita
       </label>
       <br />
       <button type="submit">Kirim</button>
